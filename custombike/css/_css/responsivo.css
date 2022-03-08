@@ -1,0 +1,202 @@
+/*estilo para tablet*/
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+	.introducao {
+		margin-top: 0px;
+		padding-top: 25px;
+	}
+
+	.introducao h1 {
+		padding: 80px;
+		font-size: 36px;
+	}
+
+	.introducao_interna {
+		margin-top: 85px;
+		}
+
+	/*qualidade home*/
+	.qualidade::after{
+		right: 66px;
+	}
+
+	.qualidade_lista li {
+		padding: 0 10px;
+	}
+
+	/*footer*/
+	.footer_redes ul li a {
+		border: 3px solid #397150;
+		display: block;
+		padding: 5px;
+	}
+
+	.footer_redes ul li a img {
+		width: 26px;
+		height: 26px;
+	}
+
+	/*bike*/
+
+	.produto_item h2{
+		top: -150px;
+		margin-bottom: -56px;
+	}
+
+	.produto_icone {
+		padding: 41px 0;
+	}
+
+	.produto_info p{
+		font-size: 14px;
+		line-height: 20px;
+		height: 122px;
+		padding: 20px 30px;
+	}
+
+	.produto_info ul li {
+		font-size: 18px;
+		line-height: 20px;
+		width: 181px;
+		height: 49px;
+		padding-top: 15px;
+	}
+
+
+	/*final estilo table*/
+}
+
+	
+/*estilo para smartphone*/
+@media only screen and (max-width: 767px) {
+	
+	/*header*/
+	
+	.header {
+		position: relative;
+		padding-bottom: 0px;
+	}
+
+	.header img {
+		margin: 0 auto 10px auto;
+
+	}
+
+	.header_menu {
+		text-align: center;
+	}
+
+	.header_menu ul li {
+		margin: 5px;
+	}
+
+	.header_menu ul li a{
+		border: 4px solid #ffff;
+		width: 136px;
+		display: block;
+		float: left;
+		
+	}
+
+	.header_menu ul li a:hover {
+		border-color:#0000;
+		
+	}
+
+	.header_menu ul li a.menu_ativo {
+		border-color: #0000;
+	}
+
+	/*introducao*/
+
+	.introducao {
+		margin-top: 0px;
+		padding-top: 40px;
+		background: url("../img/bg-mobile.jpg") no-repeat center;
+		background-size: cover;
+	}
+
+	.introducao h1 {
+		font-size: 36px;
+	}
+
+	/* Introducao interna*/
+	.introducao_interna {
+	margin-top: 0px;
+	}
+
+	/*call to action*/
+	.call-to-action {
+		padding-top: 10px;
+	}
+
+	/*Portfolio*/
+	.restauracao_background{
+		height: 666px;  
+	}
+
+	.portfolio p{  
+		margin-top: 15px;
+		margin-bottom: 15px;
+		text-align:left;
+	}
+	
+
+	/*qualidade*/
+
+	.qualidade h2 {
+		margin-top: 70px;
+	}
+
+	.qualidade::after{
+		display: none;
+	}
+
+	/*sobre*/
+	.proposito_sobre p{
+		padding-right: 0px;
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.proposito_sobre ul li{
+		font-size: 14px;
+		line-height: 26px;
+	}
+
+	/*bike*/
+
+	.produto_item h2{
+		top: -100px;
+		margin-bottom: -68px;
+	}
+
+	.produto_info p{
+		font-size: 14px;
+		line-height: 20px;
+		height: auto;
+		padding: 20px 30px;
+	}
+
+	.produto_info ul li {
+		font-size: 14px;
+		line-height: 18px;
+		width: 149px;
+		height: 49px;
+		padding-top: 14px;
+	}
+
+	
+	.form {
+		padding-right: 0px;
+	}
+
+	.orcamento_dados ul {
+		padding-right: 0px;
+	}
+
+	.contato_form {
+		padding-right: 0px;
+	}
+	
+
+}
